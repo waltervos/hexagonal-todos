@@ -17,5 +17,5 @@ Practice Ports and Adapters architecture by creating a todo list app, while usin
 **As a** user  
 **I want to** mark a todo as done
 
-**As a** user
-**I want to** only have my todos visible to myself if I don't share them
+**As a** user  
+**I want to** only have my todos visible to myself
