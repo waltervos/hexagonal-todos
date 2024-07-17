@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hexagonal-todos"
+version = "0.1.0"
+description = ""
+authors = ["Coding Dojo NS"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+pytest-watch = "^4.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+python_files = "*_spec.py"
+python_classes = "Describe*"
+python_functions = "it_*"
+
