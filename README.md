@@ -19,3 +19,9 @@ Practice Ports and Adapters architecture by creating a todo list app, while usin
 
 **As a** user  
 **I want to** only have my todos visible to myself
+
+## Running the Flask app: 
+
+```shell
+poetry run flask --app=driving_adapters.web.app run
+```

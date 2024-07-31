@@ -28,6 +28,10 @@ env/
 *~
 .DS_Store
 
+# Tiny DBs
+test.json
+flask_app_db.json
+
 # Unwanted pytest files
 .coverage
 .pytest_cache/
