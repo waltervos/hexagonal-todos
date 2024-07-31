@@ -1,0 +1,21 @@
+{
+    "name": "Python with Poetry",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.black-formatter"
+            ],
+            "settings": {
+                "[python]": {
+                    "editor.defaultFormatter": "ms-python.black-formatter"
+                }
+            }
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/poetry:2": {}
+    },
+    "postCreateCommand": "poetry install && sudo chown -R vscode:vscode /workspaces"
+}
